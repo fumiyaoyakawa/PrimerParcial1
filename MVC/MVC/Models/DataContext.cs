@@ -12,5 +12,7 @@ namespace MVC.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<MVC.Models.FumiyaOyakawaFriend> FumiyaOyakawaFriends { get; set; }
     }
 }
